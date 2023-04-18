@@ -1,0 +1,1 @@
+nuitka --standalone --msvc=latest --no-pyi-file --nofollow-import-to=pip .\test_pip_app.py
