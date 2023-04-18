@@ -137,5 +137,11 @@ whisper
 *.m4a
 *.m4s
 
-
 *.env
+
+*.dist/
+*.build/
+
+test_*/
+
+pip*/
