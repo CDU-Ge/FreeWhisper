@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea
+bin
+models
+*.pt
+whisper
+
+*.m4a
+*.m4s
+
+
+*.env
