@@ -145,3 +145,14 @@ whisper
 test_*/
 
 pip*/
+
+docs/
+/EmbedPython/python310/Scripts/pip.exe
+/EmbedPython/python310/Scripts/pip3.10.exe
+/EmbedPython/python310/Scripts/pip3.exe
+/EmbedPython/python310/Scripts/wheel.exe
+
+*.dll
+*.exe
+*.zip
+*.cat
