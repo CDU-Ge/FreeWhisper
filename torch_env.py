@@ -20,7 +20,19 @@ from typing import Literal
 
 
 def torch_env(home: str = None) -> str:
+    """
+    Get CUDA env var.
+
+    Args:
+        home:
+            $Env:CUDA_PATH_PROJECT
+
+    Returns:
+        str: $Env:Path for CUDA.
+    """
     home = home if home else os.environ.get('CUDA_PATH_PROJECT')
+    if not home:
+        return ''
     _bin = os.path.join(home, 'bin')
     _libnvvp = os.path.join(home, 'libnvvp')
     return ';'.join(map(os.path.abspath, [_bin, _libnvvp]))
