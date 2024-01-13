@@ -156,3 +156,8 @@ docs/
 *.exe
 *.zip
 *.cat
+
+*.cache
+*.json
+*.aac
+*.m4a
