@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'mainABuRxx.ui'
+## Form generated from reading UI file 'mainxcuGNV.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.5.0
 ##
@@ -43,6 +43,16 @@ class Ui_MainWindow(object):
         self.actionreboot.setObjectName(u"actionreboot")
         self.actionfile = QAction(MainWindow)
         self.actionfile.setObjectName(u"actionfile")
+        self.actioncheck = QAction(MainWindow)
+        self.actioncheck.setObjectName(u"actioncheck")
+        self.actioninstall = QAction(MainWindow)
+        self.actioninstall.setObjectName(u"actioninstall")
+        self.actionupdate = QAction(MainWindow)
+        self.actionupdate.setObjectName(u"actionupdate")
+        self.actionuninstall = QAction(MainWindow)
+        self.actionuninstall.setObjectName(u"actionuninstall")
+        self.actionversion = QAction(MainWindow)
+        self.actionversion.setObjectName(u"actionversion")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.gridLayout = QGridLayout(self.centralwidget)
@@ -265,6 +275,8 @@ class Ui_MainWindow(object):
         self.menu_file_open.setObjectName(u"menu_file_open")
         self.menu_edit = QMenu(self.menubar)
         self.menu_edit.setObjectName(u"menu_edit")
+        self.menu_py = QMenu(self.menubar)
+        self.menu_py.setObjectName(u"menu_py")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
@@ -272,6 +284,7 @@ class Ui_MainWindow(object):
 
         self.menubar.addAction(self.menu_file.menuAction())
         self.menubar.addAction(self.menu_edit.menuAction())
+        self.menubar.addAction(self.menu_py.menuAction())
         self.menubar.addAction(self.menu_about.menuAction())
         self.menu_about.addAction(self.actionabout)
         self.menu_about.addSeparator()
@@ -282,6 +295,12 @@ class Ui_MainWindow(object):
         self.menu_file.addAction(self.actionexit)
         self.menu_file_open.addAction(self.actionfile)
         self.menu_edit.addAction(self.actionclear)
+        self.menu_py.addAction(self.actioncheck)
+        self.menu_py.addAction(self.actioninstall)
+        self.menu_py.addAction(self.actionupdate)
+        self.menu_py.addAction(self.actionuninstall)
+        self.menu_py.addSeparator()
+        self.menu_py.addAction(self.actionversion)
 
         self.retranslateUi(MainWindow)
 
@@ -296,6 +315,11 @@ class Ui_MainWindow(object):
         self.actionexit.setText(QCoreApplication.translate("MainWindow", u"\u9000\u51fa", None))
         self.actionreboot.setText(QCoreApplication.translate("MainWindow", u"\u91cd\u542f", None))
         self.actionfile.setText(QCoreApplication.translate("MainWindow", u"file", None))
+        self.actioncheck.setText(QCoreApplication.translate("MainWindow", u"check", None))
+        self.actioninstall.setText(QCoreApplication.translate("MainWindow", u"install", None))
+        self.actionupdate.setText(QCoreApplication.translate("MainWindow", u"update", None))
+        self.actionuninstall.setText(QCoreApplication.translate("MainWindow", u"uninstall", None))
+        self.actionversion.setText(QCoreApplication.translate("MainWindow", u"version", None))
         self.StatusIndicator.setTitle("")
         self.state_lable.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\">\u4efb\u52a1\u72b6\u6001:</p></body></html>", None))
         self.state_indicator.setText("")
@@ -327,5 +351,6 @@ class Ui_MainWindow(object):
         self.menu_file.setTitle(QCoreApplication.translate("MainWindow", u"\u6587\u4ef6", None))
         self.menu_file_open.setTitle(QCoreApplication.translate("MainWindow", u"\u6253\u5f00", None))
         self.menu_edit.setTitle(QCoreApplication.translate("MainWindow", u"\u7f16\u8f91", None))
+        self.menu_py.setTitle(QCoreApplication.translate("MainWindow", u"Python", None))
     # retranslateUi
 

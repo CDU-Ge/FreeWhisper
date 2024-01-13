@@ -294,8 +294,20 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <addaction name="actionclear"/>
    </widget>
+   <widget class="QMenu" name="menu_py">
+    <property name="title">
+     <string>Python</string>
+    </property>
+    <addaction name="actioncheck"/>
+    <addaction name="actioninstall"/>
+    <addaction name="actionupdate"/>
+    <addaction name="actionuninstall"/>
+    <addaction name="separator"/>
+    <addaction name="actionversion"/>
+   </widget>
    <addaction name="menu_file"/>
    <addaction name="menu_edit"/>
+   <addaction name="menu_py"/>
    <addaction name="menu_about"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -327,6 +339,31 @@ li.checked::marker { content: &quot;\2612&quot;; }
   <action name="actionfile">
    <property name="text">
     <string>file</string>
+   </property>
+  </action>
+  <action name="actioncheck">
+   <property name="text">
+    <string>check</string>
+   </property>
+  </action>
+  <action name="actioninstall">
+   <property name="text">
+    <string>install</string>
+   </property>
+  </action>
+  <action name="actionupdate">
+   <property name="text">
+    <string>update</string>
+   </property>
+  </action>
+  <action name="actionuninstall">
+   <property name="text">
+    <string>uninstall</string>
+   </property>
+  </action>
+  <action name="actionversion">
+   <property name="text">
+    <string>version</string>
    </property>
   </action>
  </widget>
