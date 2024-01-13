@@ -145,3 +145,33 @@ whisper
 test_*/
 
 pip*/
+
+docs/
+/EmbedPython/python310/Scripts/pip.exe
+/EmbedPython/python310/Scripts/pip3.10.exe
+/EmbedPython/python310/Scripts/pip3.exe
+/EmbedPython/python310/Scripts/wheel.exe
+
+*.dll
+*.exe
+*.zip
+*.cat
+
+*.cache
+*.json
+*.aac
+*.mp3
+
+*.srt
+
+# This is workspace file, contains code that alawys changes and
+workspace.py
+
+# my config file
+myconf.py
+
+# runtime config file
+config.yaml
+
+# temp data dir
+data/

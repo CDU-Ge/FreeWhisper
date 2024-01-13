@@ -11,11 +11,10 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import sys
-from dotenv import load_dotenv
+from whisper import tokenizer
 
-if __name__ == '__main__':
-    load_dotenv('.dev.env')
-    from FreeWhisper.__main__ import main
-
-    main(sys.argv)
+LANGUAGES = tokenizer.LANGUAGES
+TO_LANGUAGE_CODE = tokenizer.TO_LANGUAGE_CODE
+SUPPORT_LANGUAGE = [
+    lang for lang in sorted(TO_LANGUAGE_CODE.keys())
+]
