@@ -160,7 +160,7 @@ docs/
 *.cache
 *.json
 *.aac
-*.m4a
+*.mp3
 
 *.srt
 
