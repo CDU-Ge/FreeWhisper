@@ -172,3 +172,6 @@ myconf.py
 
 # runtime config file
 config.yaml
+
+# temp data dir
+data/
