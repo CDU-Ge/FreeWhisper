@@ -163,3 +163,9 @@ docs/
 *.m4a
 
 *.srt
+
+# This is workspace file, contains code that alawys changes and
+workspace.py
+
+# my config file
+myconf.py
