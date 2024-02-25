@@ -176,4 +176,4 @@ config.yaml
 # temp data dir
 data/
 
-workspace/_*.py
+workspaces/_*.py
